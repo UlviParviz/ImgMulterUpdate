@@ -1,0 +1,39 @@
+.app {
+  width: 100%;
+  height: 100vh;
+  padding: 50px;
+  background-color: rgb(194, 194, 194);
+}
+.app___wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+}
+.app___wrapper___item {
+  border-radius: 10px;
+  border: 1px solid rgba(55, 55, 55, 0.37);
+  width: 22%;
+  background-color: rgb(82, 82, 82);
+  overflow: hidden;
+  color: white;
+}
+.app___wrapper___item--top {
+  width: 100%;
+}
+.app___wrapper___item--top > img {
+  width: 100%;
+  object-fit: cover;
+}
+.app___wrapper___item--bottom {
+  padding: 0 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  padding-bottom: 5px;
+}
